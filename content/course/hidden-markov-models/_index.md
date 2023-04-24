@@ -1,8 +1,8 @@
 ---
-title: 📊 Learn Data Science
+title: Hidden Markov Models
 linkTitle: Data Science
-summary: An example of using Wowchemy's Book layout for publishing online courses.
-date: '2021-01-24'
+summary: Introducing HMMs and their uses + Viterbi algorithm + Baum-Welch Algorithm
+date: '2023-04-24'
 type: book
 tags:
   - current
