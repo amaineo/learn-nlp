@@ -27,7 +27,7 @@ $$
 
 * ***Hidden Markov Model***: The system transitions between states with some transition probabilities, but the states themselves are invisible . . . instead we can only observe the a sequence of emissions, and have to infer the underlying state which generated the emission.
 
-![''](hmm2.png))
+![''](hmm2.png)
 
 # Main task
 
