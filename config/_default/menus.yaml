@@ -7,13 +7,13 @@ main:
   - name: Home
     url: '/'
     weight: 10
-  - name: Courses
+  - name: Tutorials
     weight: 20
-    identifier: courses
+    identifier: tutorials
   - name: Hidden Markov Models
     weight: 10
     PageRef: course/hidden-markov-models
-    parent: courses
+    parent: tutorials
   # - name: Data science
   #   PageRef: course/data-science/_index.md
   #   weight: 10
