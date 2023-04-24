@@ -18,8 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo learning theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Learning materials for key topics in Natural Language Processing'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''

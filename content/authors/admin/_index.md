@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Shubharup Ganguly
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Python Instructor
+role: B.S. in Data Science and Applications
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Indian Institute of Technology, Madras
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -43,10 +43,10 @@ social:
     link: 'mailto:test@example.org'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/ShubharupG
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/shubharup
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
