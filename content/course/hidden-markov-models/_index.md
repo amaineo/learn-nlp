@@ -1,6 +1,6 @@
 ---
 title: Hidden Markov Models
-linkTitle: Data Science
+linkTitle: Hidden Markov Models
 summary: Introducing HMMs and their uses + Viterbi algorithm + Baum-Welch Algorithm
 date: '2023-04-24'
 type: book

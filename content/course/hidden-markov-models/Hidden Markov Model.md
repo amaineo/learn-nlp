@@ -5,7 +5,7 @@ type: book
 weight: 20
 
 ---
-{{< math >}}
+<!-- {{< math >}}
 
 $$ \delta_j = \underset{k}{\operatorname{max}} {P (path_k({t}_j^s))} $$
 
@@ -15,7 +15,7 @@ $$ \delta_j = \underset{k}{\operatorname{max}} {P (path_k({t}_j^s))} $$
 $$
 \gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
 $$
-{{< /math >}}
+{{< /math >}} -->
 
 # Intro: Markov Model vs Hidden Markov Model
 
