@@ -31,7 +31,7 @@ $$
 
 # Main task
 
-***Given a sequence of observations viz. observed emissions, the task is to extract the most likely sequence of underlying states. ***
+***Given a sequence of observations viz. observed emissions, the task is to extract the most likely sequence of underlying states.***
 
 ## Why it is challenging
 
@@ -43,7 +43,7 @@ Then for an observed sequence of length n, there are $\prod_{1}^{n} g_t$ possibl
 
 **The naive method would be:** 
 
-* Enumerating to over all possible sequences, 
+* Enumerating over all possible sequences, 
 * Calculating the probability of each and every possible sequence, and 
 * Comparing all of these to get the state with the highest probability.
 
