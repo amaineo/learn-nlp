@@ -1,4 +1,4 @@
-module https://github.com/amaineo/list-children-without-summary
+module github.com/amaineo/list-children-without-summary
 
 go 1.15
 
