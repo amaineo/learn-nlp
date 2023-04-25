@@ -5,7 +5,8 @@ summary: Introducing HMMs and their uses + Viterbi algorithm + Baum-Welch Algori
 date: '2023-04-24'
 type: book
 tags:
-  - current
+  - classifier
+  - generative
 ---
 
 {{< figure src="featured.png" >}}
