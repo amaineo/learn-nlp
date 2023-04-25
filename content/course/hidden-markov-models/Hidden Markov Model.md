@@ -61,7 +61,7 @@ Two algorithms are relevant:
 * transition probability matrix 
 * emission probability matrix from just the data. 
 
-These are the three parameters necessary for working with a Hidden Markov Model. "Working with" as in, performing the task mentioned above, of inferring the underlying sequence of states which generated the sequence of emissions. 
+These are **the three necessary parameters** for working with a Hidden Markov Model. "Working with" as in, performing the task mentioned above, of inferring the underlying sequence of states which generated the observed sequence of emissions. 
 
 * ***Baum-Welch algorithm***: Also called the "Forward-Backward Algorithm", this can be used for estimating the three parameters when they are not known. Then, once these three parameters are known, we can use the Viterbi Decoding Algorithm.
 
