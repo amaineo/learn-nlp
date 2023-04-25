@@ -2,7 +2,7 @@
 widget: portfolio
 headless: true
 weight: 30
-title: Explore top courses
+title: Explore tutorials
 subtitle:
 content:
   filters:
@@ -17,9 +17,11 @@ content:
 
   filter_button:
     - name: Classifiers
-      tag: 'classifier'
+      tag: classifier
     - name: Generative Models
       tag: generative
+    - name: Discriminative Models
+      tag: discriminative
     # - name: Current
     #   tag: current
 design:
