@@ -41,7 +41,7 @@ Suppose there are  $n$ states (where we saw the corresponding $n$ emissions) and
 
 Then for an observed sequence of length n, there are $\prod_{1}^{n} g_t$ possible state sequences which could explain the observed emission sequence.  
 
-![''](hmm3.drawio.png "Figure showing the 6 possible paths when $\g_1 = 3")
+![''](hmm3.drawio.png "Figure showing the 6 possible paths when $\g_1 = 3$")
 
 **The naive method would be:** 
 
