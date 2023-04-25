@@ -41,15 +41,17 @@ social:
   # - icon: envelope
   #   icon_pack: fas
   #   link: 'mailto:test@example.org'
+  
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/shubharup
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/ShubharupG
   - icon: github
     icon_pack: fab
     link: https://github.com/shubharup
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/shubharup
+  
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
