@@ -12,17 +12,15 @@ tags:
 
 {{< toc hide_on="xl" >}}
 
-## What you will learn
-
-- Fundamental {{<hl>}}Python programming skills{{</hl>}}
-- {{<hl>}}Statistical concepts{{</hl>}} and how to apply them in practice
-- Gain experience with the {{<hl>}}Scikit{{</hl>}}, including data visualization with {{<hl>}}Plotly{{</hl>}} and data wrangling with {{<hl>}}Pandas{{</hl>}}
-
 ## Program overview
 
-The demand for skilled data science practitioners is rapidly growing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi.
+Hidden Markov Model is a generative model used in a number of areas of Natural Language Processing <br>
+e.g.
 
-## Courses in this program
+* Part of Speech (POS) Tagging
+* Automatic Speech Recognition (ASR)
+
+## Topics Covered
 
 {{< list_children >}}
 
@@ -33,11 +31,11 @@ The demand for skilled data science practitioners is rapidly growing. Lorem ipsu
 ## FAQs
 
 {{< spoiler text="Are there prerequisites?" >}}
-There are no prerequisites for the first course.
+A first course in probability theory.
 {{< /spoiler >}}
 
-{{< spoiler text="How often do the courses run?" >}}
+<!-- {{< spoiler text="How often do the courses run?" >}}
 Continuously, at your own pace.
-{{< /spoiler >}}
+{{< /spoiler >}} -->
 
-{{< cta cta_text="Begin the course" cta_link="python" >}}
+{{< cta cta_text="Begin the course" cta_link="1. Hidden Markov Model" >}}
