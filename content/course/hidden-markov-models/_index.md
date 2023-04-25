@@ -38,4 +38,4 @@ A first course in probability theory.
 Continuously, at your own pace.
 {{< /spoiler >}} -->
 
-{{< cta cta_text="Begin the course" cta_link="1. Hidden Markov Model" >}}
+{{< cta cta_text="Let's Start!" cta_link="1. Hidden Markov Model" >}}
