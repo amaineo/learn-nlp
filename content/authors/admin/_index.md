@@ -47,6 +47,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/shubharup
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/shubharup
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
