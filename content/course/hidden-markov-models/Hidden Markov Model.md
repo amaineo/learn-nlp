@@ -1,5 +1,5 @@
 ---
-title: Hidden Markov Model
+title: Intro to HMM
 date: '2021-01-01'
 type: book
 weight: 20
@@ -17,7 +17,7 @@ $$
 $$
 {{< /math >}} -->
 
-# Intro: Markov Model vs Hidden Markov Model
+## Markov Model vs Hidden Markov Model
 
 
 
@@ -29,7 +29,7 @@ $$
 
 ![''](hmm2.png)
 
-# Main task
+## Main task
 
 ***Given a sequence of observations viz. observed emissions, the task is to extract the most likely sequence of underlying states.***
 
@@ -49,12 +49,12 @@ Then for an observed sequence of length n, there are $\prod_{1}^{n} g_t$ possibl
 
 But this is not efficient, and just not feasible for longer sequences.
 
-# Relevant Algorithms
+## Relevant Algorithms
 
 Two algorithms are relevant:
 
 * ***Viterbi Decoding Algorithm***: Efficiently infer the underlying sequence with the highest probability, when the transition probability matrix is known. 
 
-* ***Baum-Welch algorithm***: Also called the "Forward-Backward Algorithm", this can be used for estimating the transition probability matrix from just the data. (Then, once the transition probability matrix is know, we can use the Viterbi Decoding Algorithm.)
+* ***Baum-Welch algorithm***: Also called the "Forward-Backward Algorithm", this can be used for estimating the transition probability matrix from just the data. (Then, once the transition probability matrix is known, we can use the Viterbi Decoding Algorithm.)
 
 We will first look at Viterbi Decoding.
