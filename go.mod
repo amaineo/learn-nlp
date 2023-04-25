@@ -1,4 +1,4 @@
-module github.com/wowchemy/starter-hugo-online-course
+module https://github.com/amaineo/list-children-without-summary
 
 go 1.15
 
