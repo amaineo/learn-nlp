@@ -22,7 +22,7 @@ e.g.
 
 ## Topics Covered
 
-{{< list_children show_summary="false" >}}
+{{< list_children >}}
 
 ## Meet your instructor
 
