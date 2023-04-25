@@ -1,4 +1,4 @@
-module github.com/amaineo/wowchemy-shortcode-lcws
+module ''
 
 go 1.15
 

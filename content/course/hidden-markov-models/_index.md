@@ -22,7 +22,7 @@ e.g.
 
 ## Topics Covered
 
-{{< github_amaineo_lcws >}}
+{{< list_children show_summary="false" >}}
 
 ## Meet your instructor
 
