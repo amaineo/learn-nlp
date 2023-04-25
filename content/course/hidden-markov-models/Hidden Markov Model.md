@@ -41,6 +41,8 @@ Suppose there are  $n$ states (where we saw the corresponding $n$ emissions) and
 
 Then for an observed sequence of length n, there are $\prod_{1}^{n} g_t$ possible state sequences which could explain the observed emission sequence.  
 
+![''](hmm3.drawio.png "Figure showing 3 of the 6 possible paths")
+
 **The naive method would be:** 
 
 * Enumerating over all possible sequences, 
@@ -53,8 +55,14 @@ But this is not efficient, and just not feasible for longer sequences.
 
 Two algorithms are relevant:
 
-* ***Viterbi Decoding Algorithm***: Efficiently infer the underlying sequence with the highest probability, when the transition probability matrix is known. 
+* ***Viterbi Decoding Algorithm***: Efficiently infer the underlying sequence with the highest probability, when the following parameters are known:
 
-* ***Baum-Welch algorithm***: Also called the "Forward-Backward Algorithm", this can be used for estimating the transition probability matrix from just the data. (Then, once the transition probability matrix is known, we can use the Viterbi Decoding Algorithm.)
+* initial probability distribution over states 
+* transition probability matrix 
+* emission probability matrix from just the data. 
+
+These are the three parameters necessary for working with a Hidden Markov Model. "Working with" as in, performing the task mentioned above, of inferring the underlying sequence of states which generated the sequence of emissions. 
+
+* ***Baum-Welch algorithm***: Also called the "Forward-Backward Algorithm", this can be used for estimating the three parameters when they are not known. Then, once these three parameters are known, we can use the Viterbi Decoding Algorithm.
 
 We will first look at Viterbi Decoding.
